@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/multiapp/static/css/main.362e2267.css",
+    "main.js": "/multiapp/static/js/main.ca09e92c.js",
+    "static/js/787.c0f25e07.chunk.js": "/multiapp/static/js/787.c0f25e07.chunk.js",
+    "index.html": "/multiapp/index.html",
+    "main.362e2267.css.map": "/multiapp/static/css/main.362e2267.css.map",
+    "main.ca09e92c.js.map": "/multiapp/static/js/main.ca09e92c.js.map",
+    "787.c0f25e07.chunk.js.map": "/multiapp/static/js/787.c0f25e07.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.362e2267.css",
+    "static/js/main.ca09e92c.js"
+  ]
+}
