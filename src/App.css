@@ -86,12 +86,14 @@ h1 {
   outline: none;
   width: 320px;
   background: transparent;
-  color: #fff;
+  color: rgb(13, 136, 173);
+  font-weight: bolder;
+  font-size: larger;
 }
 
-.todo-input::placeholder {
+/* .todo-input::placeholder {
   color: #e2e2e2;
-}
+} */
 
 .todo-button {
   padding: 16px;
@@ -104,7 +106,7 @@ h1 {
     rgba(93, 12, 255, 1) 0%,
     rgba(155, 0, 250, 1) 100%
   );
-  color: #fff;
+  /* color: #fff; */
   text-transform: capitalize;
 }
 
@@ -230,5 +232,11 @@ h1 {
 @keyframes moveGradient {
   50% {
     background-position: 100% 50%;
+  }
+}
+
+@media screen and (min-width: 600px){
+  #calculator{
+    width: 35%;
   }
 }

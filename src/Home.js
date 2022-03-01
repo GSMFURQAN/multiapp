@@ -12,7 +12,7 @@ export default function Home(props) {
           to="/Textform"
         >
           <img
-            src="notepad.png"
+            src="./multiapp/notepad.png"
             width="60"
             height="220"
             className="card-img-top px-5"
@@ -32,7 +32,7 @@ export default function Home(props) {
           id="gradient-border"
           to="/Calculator">
           <img
-            src="calculator.png"
+            src="./multiapp/calculator.png"
             width="60"
             height="220"
             className="card-img-top px-5"
@@ -50,7 +50,7 @@ export default function Home(props) {
           id="gradient-border"
         >
           <img
-            src="todo.png"
+            src="./multiapp/todo.png"
             width="60"
             height="220"
             className="card-img-top px-5"

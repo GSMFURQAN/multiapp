@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-
+import "../App.css";
 export default function Calculator(props) {
 
   const handleOnChange = (event) => {
@@ -33,8 +33,9 @@ export default function Calculator(props) {
   return (
     <>
       <div
-        className={`container mt-4 border border-primary bg-${props.mode}` }
-        style={{ width: 35 + "%"}}
+        className={`container mt-5 border border-primary bg-${props.mode}` }
+        id="calculator"
+        
       >
         <div className="input-group  mb-3 ">
           <input

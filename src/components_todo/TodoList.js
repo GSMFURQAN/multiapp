@@ -43,7 +43,7 @@ function TodoList(props) {
   return (
     <>
       <h1 className={` mt-2 text-${props.mode === "light" ? "dark" : "light"}`}>What's the Plan for Today?</h1>
-      <TodoForm onSubmit={addTodo} />
+      <TodoForm onSubmit={addTodo}  />
       <Todo
         todos={todos}
         completeTodo={completeTodo}
