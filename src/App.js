@@ -32,7 +32,7 @@ function App() {
   const toggleMode = () => {
     if (mode === "light") {
       setMode("dark");
-      document.body.style.backgroundImage = "url('./multiapp/bgimg.jpg')";
+      document.body.style.backgroundImage = "url('bgimg.jpg')";
       document.body.style.textDecorationColor = "white";
 
       // showAlert("Dark mode enabled","success");
